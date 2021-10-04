@@ -7,3 +7,13 @@
 .heading h3{
   display:inline;
 }
+
+.heading button{
+  float: right;
+  border: 1px solid 
+}
+
+.big_image
+{
+  width:100%;
+}
