@@ -28,3 +28,9 @@ h4
 { 
   width:90%;
 }
+
+.instruction_image
+{
+  display:inline-block;
+  width:45%;
+}
