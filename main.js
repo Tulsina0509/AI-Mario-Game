@@ -2,7 +2,7 @@ img=**;
 noseX= 0;
 noseY=0;
 marioX=325;
-marioY=325
+marioY=325;`
 
 function preload() {
 	img=loadImage("mario05.png")
@@ -28,7 +28,22 @@ function modelLoaded(){
 		    }
 
 function draw() {
-	game()
+background("#E6DF9A");
+if(noseX < 300)
+{ 
+marioX = marioX -1;
+}
+if(noseX > 300)
+{
+marioX = marioX + 1;
+}
+if(noseY < 150)
+{
+marioY = marioY - 1;
+}
+image(img,marioX,marioY,40,70);
+}
+game()
 }
 
 
