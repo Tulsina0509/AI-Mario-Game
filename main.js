@@ -1,8 +1,8 @@
-img="";
+/*img="";
 noseX= 0;
 noseY=0;
 marioX=325;
-marioY=325;
+marioY=325;*/
 
 function preload() {
 	img=loadImage("mario05.png")
