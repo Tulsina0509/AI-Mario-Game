@@ -53,8 +53,9 @@ if(noseY < 150)
 marioY = marioY - 1;
 }
 image(img,marioX,marioY,40,70);
-}
+	{
 game()
+}
 }
 
 
