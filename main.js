@@ -10,7 +10,7 @@ function preload() {
 	mario_jump = loadSound("jump.wav");
 	mario_coin =  loadSound ("coin.wav");
 	mario_die = loadSound("mariodie.wav");
-	mario_kick = loadSound(kick.wav");
+	mario_kick = loadSound("kick.wav");
 	setSprites();
 	MarioAnimation();
 }
