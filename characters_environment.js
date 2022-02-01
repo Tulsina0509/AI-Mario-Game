@@ -223,6 +223,8 @@ function getCoins(coin,character){
   if( character.overlap(coin) && character.live && coin.get==false){
     character.coins+=1;
     coin.get=true;
+	mario_coin.play();  
+	  
   };
 }
     
