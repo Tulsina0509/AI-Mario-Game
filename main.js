@@ -7,6 +7,8 @@ marioY=325;*/
 function preload() {
 	img=loadImage("mario05.png")
 	world_start = loadSound("world_start.wav");
+	mario_jump = loadSound("jump.wav");
+	mario_coin =  loadSound ("coin.wav");
 	setSprites();
 	MarioAnimation();
 }
