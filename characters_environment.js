@@ -392,6 +392,7 @@ function checkStatus(character){
   }
   if(character.live==false && character.liveNumber==0){
     gameConfig.status="gameover"
+	  mario_gameover.play();
   }
 
 }
